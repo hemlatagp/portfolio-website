@@ -1,0 +1,476 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:ital,wght@1,200;1,500&family=The+Nautigal&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.sidebar{
+    background-color: rgb(6, 2, 73);
+    width: 30vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 50vw;
+    font-size: 300%;
+}
+.main
+{
+    background-color: rgb(241, 183, 94);
+    width: 190vw;
+    height: 50vw;
+}
+
+
+.sidebar nav{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size:15px;
+    padding: 30px;
+   
+
+}
+
+.sidebar nav li a{
+     text-decoration: none;
+    color: white;
+
+}
+
+
+.sidebara{
+    background-color: rgb(6, 2, 73);
+    width: 30vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 290vw;
+    font-size: 300%;
+}
+.maina
+{
+    background-color: rgb(241, 183, 94);
+    width: 190vw;
+    height: 290vw;
+}
+
+
+.sidebara nav{
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.sidebara nav li{
+    list-style: none;
+    font-size:15px;
+    padding: 30px;
+   
+}
+
+.sidebara nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.container{
+        display: flex;
+}
+
+.InfoContainer{
+    background-color: rgb(253, 237, 218) ;
+    height: 60vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+
+}
+
+.devInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;;
+    
+}
+
+
+.devPic img{
+    height: 50vh;
+    
+ }
+
+.hello{
+    
+    font-family: 'The Nautigal', cursive;
+    color: rgb(20, 13, 124);
+    height: 130%;
+    font-size: 200%;
+    text-align: center;
+   
+}
+.name{
+    
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 13, 124);
+    height: 350%;
+    font-size: 200%;
+    text-align: center;
+}
+.designation
+{
+    
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 13, 124);
+    height: 500%;
+    font-size: 225%;
+    text-align: center;
+}
+.about
+{
+    
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 13, 124);
+    height: 290%;
+    font-size: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+.buttons{
+
+     margin-left:190px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:5px;
+}
+.buttons button
+{
+padding:9px 15px;
+border radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(58, 33, 2);
+font-size: 79%;
+font-weight: bold;
+margin: 0 3 px;
+cursor: pointer;
+}
+
+.buttons button:hover
+{
+    background-color: rgb(255, 212, 131);
+    color: rgb(0, 0, 0);
+
+}
+
+.contactform{
+    
+    padding:20px 104px ;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.contactform h1{
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+   
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+width: 44px;
+margin: 3px 3px;
+}
+
+.sbutton{
+
+    margin-left:400px;
+   margin-top:10px;
+   margin-bottom:10px;
+   padding:29px;
+}
+
+.sbutton button
+{
+    padding:9px 15px;
+    border radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 33, 2);
+    font-size: 79%;
+    font-weight: bold;
+    margin: 0 3 px;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+  
+  }
+    
+}
+
+.sbutton button:hover
+{
+    background-color: rgb(255, 212, 131);
+    color: rgb(0, 0, 0);
+
+}
+
+
+.AboutContainero{
+    border: solid rgb(7, 7, 7) 1px;   
+    background-color: rgba(253, 237, 218) ;
+    height: 90vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+   
+
+
+}
+
+
+.Aboutme{
+    font-family: 'Playfair Display', serif;
+    color: rgb(24, 7, 58);
+    height: 130%;
+    font-size: 150%;
+    text-align: center;
+  position: absolute;
+  top: 125px;
+  font-weight: bold;
+
+
+}
+
+.devInfoo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.devInfoo
+{
+    
+    font-family: 'Playfair Display', serif;
+    color: rgba(0, 0, 0);
+    height: 2%;
+    font-size: 125%;
+    text-align: center;
+    padding: 5%;
+    margin-top: 300px;
+    position: absolute;
+    top: 191px;
+}
+
+
+
+.devPico img{
+    height: 50vh;
+  
+    margin-top: 100px;
+ }
+ 
+.AboutContainert{
+    border: solid rgb(7, 7, 7) 1px;   
+    background-color: rgba(253, 237, 218) ;
+    height: 140vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+
+
+}
+.Project{
+    font-family: 'Playfair Display', serif;
+    color: rgb(24, 7, 58);
+    height: 230%;
+    font-size: 150%;
+    text-align: center;
+  position: absolute;
+ 
+  font-weight: bold;
+
+
+}
+
+.Project li{
+    text-align: left;
+    list-style-type: square;
+    font-size:15px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin-right: 200px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.devPict img{
+    height: 50vh;
+    margin-top: 50px;
+ }
+ 
+
+ .Project h1{
+font-size: 20px;
+
+ }
+
+
+ .AboutContainerth{
+    border: solid rgb(7, 7, 7) 1px;   
+    background-color: rgba(253, 237, 218) ;
+    height: 140vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.Education{
+    font-family: 'Playfair Display', serif;
+    color: rgb(24, 7, 58);
+    height: 230%;
+    font-size: 150%;
+    text-align: center;
+  position: absolute;
+  
+  font-weight: bold;
+
+
+}
+
+.Education li{
+    text-align: left;
+    list-style-type: square;
+    font-size:15px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    margin-right: 350px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.Education h1{
+    font-size: 20px;
+    color: rgb(24, 24, 192);
+   
+     }
+
+
+.AboutContainerf{
+        border: solid rgb(7, 7, 7) 1px;   
+        background-color: rgba(253, 237, 218) ;
+        height: 110vh;
+        width: 70vw;
+        margin: 90px auto;
+        display: flex;
+        justify-content: space-around;
+        padding:10px;
+    }
+    .MyContact{
+        font-family: 'Playfair Display', serif;
+        color: rgb(24, 7, 58);
+        height: 179%;
+        font-size: 150%;
+        text-align: center;
+      position: absolute;
+   
+      font-weight: bold;
+    
+    
+    }
+    .MyContact li{
+        text-align: left;
+        list-style-type: none;
+        font-size:15px;
+
+        color: rgb(2, 2, 2);
+        margin-right: 350px;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+
+    .MyContact img{
+        height: 7vh;
+        margin-top: 50px;
+       
+     }
+     .MyContact h1{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+       
+         }
+
+         .ContactContainer
+         {
+            background-color: rgb(253, 237, 218) ;
+            height: 60vh;
+            width: 70vw;
+            margin: 90px auto;
+            display: flex;
+            justify-content: space-around;
+            padding:10px;
+
+         }
+.sidebarGo{
+transform: translate(-443px, 0px);
+position: absolute;
+
+
+}
+         .hamburger{
+            position: absolute;
+            cursor: pointer;
+            top :10px;
+            left:10px;
+         }
+
+         .cross{
+            margin-left: 140px;
+            margin-top: 1px;
+
+
+         }
+
+   
